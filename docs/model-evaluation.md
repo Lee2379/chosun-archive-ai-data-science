@@ -35,6 +35,10 @@ The same project also produced representative full-page detection examples in my
 
 ![Representative YOLOv5_FPC detection result](../assets/representative-fpc-detection-result.png)
 
+The detector was also tested on damaged and partially missing historical newspaper pages, demonstrating practical robustness for real archive material.
+
+![YOLOv5_FPC detection on a damaged historical newspaper page](../assets/damaged-newspaper-fpc-detection-result.png)
+
 ## Interpretation
 
 For this project, the F1-confidence score is especially important because the pipeline had to balance:

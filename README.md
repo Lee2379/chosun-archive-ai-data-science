@@ -115,6 +115,10 @@ The following representative detection result, produced within the same project 
 
 ![Representative YOLOv5_FPC detection result](assets/representative-fpc-detection-result.png)
 
+The detector also handled damaged or partially missing historical newspaper pages, which was important for real archive data rather than clean benchmark images.
+
+![YOLOv5_FPC detection on a damaged historical newspaper page](assets/damaged-newspaper-fpc-detection-result.png)
+
 ## Data and Database Curation
 
 The data work had two separate stages: first, building the source archive image collection; second, curating the model-detected FPC results.
