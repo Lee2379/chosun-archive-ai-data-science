@@ -22,7 +22,7 @@ This repository presents a portfolio-grade case study of my first-author English
 
 **Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36. DOI: [10.5334/johd.205](https://doi.org/10.5334/johd.205).**
 
-The project was conducted as an **R&D industry collaboration with Chosun Ilbo Media Institute during my master's program at KAIST**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service, research use, and new archive-service value. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling training data, fine-tuning YOLOv5, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
+The project was conducted as an **R&D industry collaboration with Chosun Ilbo Media Institute during my master's program at KAIST**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service, research use, and new archive-service value. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling FPC training data, developing the YOLOv5_FPC model through YOLOv5 fine-tuning, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
 
 > **日本語要約:** 朝鮮日報メディア研究所との産業連携において、レガシー新聞アーカイブに埋もれていた価値あるコンテンツを検索・再利用可能なデータ資産へ変換するため、曖昧なビジネス課題をデータサイエンス・AI開発課題として具体化し、データ構築、AIモデル開発、評価、大規模推論、DB化、検出ツール、論文発表、新規サービス価値創出までをend-to-endで推進しました。
 
@@ -91,7 +91,7 @@ The initial YOLOv5 model was trained on general-purpose COCO categories. It did 
 
 ![Initial YOLOv5 failure on historical newspaper page](assets/baseline-yolov5-failure.jpg)
 
-To solve this, I fine-tuned YOLOv5 on FPC-specific data. The model needed to handle:
+To solve this, I developed the **YOLOv5_FPC model** by fine-tuning YOLOv5 with self-collected FPC training data. The model needed to handle:
 
 - Degraded historical scans.
 - Dense Korean/Japanese text layouts.
@@ -99,11 +99,11 @@ To solve this, I fine-tuned YOLOv5 on FPC-specific data. The model needed to han
 - Different FPC layouts such as 4x1 and 2x2.
 - Large-scale detection where manual review alone would be costly.
 
-> **技術課題:** 一般的なCOCO事前学習モデルでは検出できない対象に対して、歴史新聞画像に特化したデータセットとfine-tuningで対応しました。
+> **技術課題:** 一般的なCOCO事前学習モデルでは検出できない対象に対して、自ら収集したFPC学習データを用いてYOLOv5をfine-tuningし、YOLOv5_FPCモデルを開発しました。
 
 ## Model Development and Evaluation
 
-The model was fine-tuned with an FPC-specific dataset split into training, validation, and testing sets. The paper reports a split of **113 training images**, **24 validation images**, and **24 testing images**.
+The YOLOv5_FPC model was developed by fine-tuning YOLOv5 with a self-collected FPC-specific dataset split into training, validation, and testing sets. The paper reports a split of **113 training images**, **24 validation images**, and **24 testing images**.
 
 The training curves showed improved localization, objectness, and classification behavior over 200 epochs.
 
