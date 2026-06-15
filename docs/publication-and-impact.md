@@ -2,6 +2,8 @@
 
 ## Publication
 
+This work originated from an R&D industry project conducted with Chosun Ilbo Media Institute during my master's program at KAIST.
+
 This project was published as a first-author English journal paper:
 
 > Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36, pp. 1-15. DOI: https://doi.org/10.5334/johd.205
@@ -50,7 +52,7 @@ The detected and curated results are connected to Chosun Ilbo's public archive e
 For Data Scientist and AI Developer hiring review, this project shows:
 
 - Peer-reviewed research communication.
-- Industry collaboration.
+- KAIST master's R&D industry collaboration with Chosun Ilbo Media Institute.
 - Real-world data processing at archive scale.
 - Computer vision model adaptation to a difficult domain.
 - Dataset and metadata design.

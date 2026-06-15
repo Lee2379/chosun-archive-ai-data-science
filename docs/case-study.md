@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This project converted a large unstructured historical newspaper archive into a searchable four-panel cartoon data asset using a custom YOLOv5 object detector.
+This project was conducted during my master's program at KAIST as an R&D industry collaboration with Chosun Ilbo Media Institute. It converted a large unstructured historical newspaper archive into a searchable four-panel cartoon data asset using a custom YOLOv5 object detector.
 
 The key professional value is end-to-end business, data science, and AI execution, not only model training. I took an ambiguous archive-content problem and moved it through the full delivery chain:
 
@@ -58,7 +58,7 @@ This project demonstrates the ability to connect modeling work to a real data pr
 For hiring review, this project should be read as a research-to-production case study:
 
 - Research credibility: first-author English journal publication.
-- Industry credibility: collaboration with Chosun Ilbo Media Institute.
+- Industry credibility: KAIST master's R&D industry collaboration with Chosun Ilbo Media Institute.
 - Data credibility: large-scale archive processing and metadata curation.
 - Engineering credibility: model fine-tuning, batch inference, and evaluation.
 - Impact credibility: public dataset and public archive-service connection.

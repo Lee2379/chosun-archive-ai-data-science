@@ -2,7 +2,7 @@
 
 > As the first author of this journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and new public archive service value.
 
-> **日本語要約:** 国際英文学術誌に第一著者として発表した産業連携AIプロジェクトです。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、新規公開サービス価値までend-to-endで実現しました。
+> **日本語要約:** KAIST修士課程中にChosun Ilbo Media Instituteと実施したR&D産業連携AIプロジェクトであり、国際英文学術誌に第一著者として発表しました。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、新規公開サービス価値までend-to-endで実現しました。
 
 ## Project Evidence
 
@@ -11,17 +11,18 @@
 | [First-author JOHD paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205) | Peer-reviewed English journal publication |
 | [ESCI / Scopus indexed journal](https://openhumanitiesdata.metajnl.com/about) | Internationally indexed academic venue |
 | [Chosun Ilbo public archive service](https://archive.chosun.com/cartoon/toon_comics.html) | Public-facing service impact from industry collaboration |
+| KAIST master's R&D industry project | Conducted with Chosun Ilbo Media Institute during my master's program |
 | Business, Data Science, and AI | Problem structuring, big-data pipeline, computer vision, evaluation, and data-asset delivery |
 
 ![Published paper title page](assets/paper-title.jpg)
 
 ## Project at a Glance
 
-This repository presents a portfolio-grade case study of my first-author English journal publication and the underlying industry AI project.
+This repository presents a portfolio-grade case study of my first-author English journal publication and the underlying R&D industry AI project conducted with Chosun Ilbo Media Institute during my master's program at KAIST.
 
 **Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36. DOI: [10.5334/johd.205](https://doi.org/10.5334/johd.205).**
 
-The project was conducted as an industry collaboration with **Chosun Ilbo Media Institute**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service, research use, and new archive-service value. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling training data, fine-tuning YOLOv5, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
+The project was conducted as an **R&D industry collaboration with Chosun Ilbo Media Institute during my master's program at KAIST**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service, research use, and new archive-service value. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling training data, fine-tuning YOLOv5, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
 
 > **日本語要約:** 朝鮮日報メディア研究所との産業連携において、レガシー新聞アーカイブに埋もれていた価値あるコンテンツを検索・再利用可能なデータ資産へ変換するため、曖昧なビジネス課題をデータサイエンス・AI開発課題として具体化し、データ構築、AIモデル開発、評価、大規模推論、DB化、検出ツール、論文発表、新規サービス価値創出までをend-to-endで推進しました。
 
@@ -29,6 +30,7 @@ The project was conducted as an industry collaboration with **Chosun Ilbo Media 
 | --- | --- |
 | Publication | First-author English journal paper in Journal of Open Humanities Data |
 | Indexing | JOHD is indexed in Web of Science Emerging Sources Citation Index (ESCI) and Scopus |
+| Academic / R&D context | KAIST master's program R&D industry project |
 | Industry partner | Chosun Ilbo Media Institute |
 | Archive scope | 47,777 digitized Chosun Ilbo newspaper JPG images from 1920-1940 |
 | Detection output | 1,040 four-panel cartoon objects in 1,035 image files |
@@ -173,7 +175,7 @@ The work also contributed to the public-facing Chosun Ilbo News Library experien
 
 This repository is a public portfolio case study built from already published research outputs, public service screenshots, and publicly accessible references. It does **not** redistribute a private source archive dump, proprietary internal materials, or unpublished collaboration files.
 
-The research was conducted with Chosun Ilbo Media Institute, and the relevant publication, dataset references, and public archive service are already available online. The repository focuses on explaining my role, methodology, evaluation, and impact for professional portfolio review.
+The research was conducted as a KAIST master's R&D industry project with Chosun Ilbo Media Institute, and the relevant publication, dataset references, and public archive service are already available online. The repository focuses on explaining my role, methodology, evaluation, and impact for professional portfolio review.
 
 ## Links
 
