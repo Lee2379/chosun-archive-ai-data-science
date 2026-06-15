@@ -63,7 +63,22 @@ After evaluation, the fine-tuned model was applied to the Chosun Ilbo News Libra
 
 ## Metadata and Database Curation
 
-The detection output was curated into structured records with archive metadata, URLs, image identifiers, and publication information. This transformed model output into a reusable data asset for researchers and service users.
+The project used two related but distinct data assets.
+
+First, source archive metadata and image URLs were extracted to collect the 47,777 JPG newspaper images from the Chosun Ilbo News Library. This input metadata supported large-scale data collection before model inference.
+
+Second, after detection, the YOLOv5_FPC outputs were curated into result records containing detected FPC image URLs, image identifiers, and publication information. This transformed model output into a reusable data asset for researchers and service users.
+
+## Public Google Colab Detector
+
+The paper also included a YOLOv5_FPC Detector script implemented on Google Colab. The script was designed for wider public use:
+
+- Clone YOLOv5 and install required dependencies.
+- Download the fine-tuned YOLOv5_FPC weight file.
+- Accept a ZIP upload of local image files.
+- Run FPC detection in the Colab runtime.
+- Save labels and detected result images.
+- Package detected images into a downloadable ZIP file.
 
 ## Public Reuse
 

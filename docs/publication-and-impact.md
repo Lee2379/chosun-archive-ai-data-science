@@ -33,6 +33,7 @@ The research output includes publicly referenced dataset materials:
 
 - Metadata dataset DOI: https://doi.org/10.7910/DVN/DFVZWE
 - Extracted FPC dataset DOI: https://doi.org/10.7910/DVN/KTF1HP
+- YOLOv5_FPC Detector Colab script: https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing
 
 The portfolio repository does not redistribute private source archives or internal collaboration files. It links to public research outputs and explains the methodology, ownership, and impact.
 

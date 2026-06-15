@@ -54,16 +54,7 @@ I led the technical and analytical work across the full lifecycle:
 
 ## System Workflow
 
-```mermaid
-flowchart LR
-    A["Historical newspaper archive<br/>1920-1940"] --> B["Training data collection"]
-    B --> C["Bounding-box labeling<br/>FPC_4x1 and FPC_2x2"]
-    C --> D["YOLOv5 fine-tuning"]
-    D --> E["Model evaluation<br/>precision, recall, mAP, F1"]
-    E --> F["Batch detection<br/>47,777 JPG images"]
-    F --> G["Metadata and DB curation<br/>1,035 files, 1,040 objects"]
-    G --> H["Open dataset, paper, and public archive service"]
-```
+<img src="assets/system-workflow.svg" alt="End-to-end YOLOv5_FPC workflow from archive image collection to detector, curated data, publication, and public service impact" width="100%">
 
 ## Technical Challenge
 
@@ -97,11 +88,27 @@ The fine-tuned detector achieved a strong F1-confidence result:
 
 ## Data and Database Curation
 
-After model evaluation, I applied the detector to the Chosun Ilbo News Library archive at scale. The pipeline processed **47,777 JPG files** and identified **1,040 FPC objects** in **1,035 files**.
+The data work had two separate stages: first, building the source archive image collection; second, curating the model-detected FPC results.
 
-The detected results were curated into metadata tables with URLs, publication dates, image identifiers, and archive fields so that researchers and service teams could access the discovered materials.
+At the beginning of the project, I extracted and organized the source metadata and image URLs used to collect the **47,777 JPG files** from the Chosun Ilbo News Library. This spreadsheet represents the input archive collection stage, not the final detection result.
 
-![Curated metadata/database screenshot](assets/metadata-database.jpg)
+![Source metadata used to collect 47,777 archive JPG files](assets/metadata-database.jpg)
+
+After model evaluation, I applied the detector to the archive at scale. The pipeline identified **1,040 FPC objects** in **1,035 files**, and the detected outputs were curated into result files with direct URLs to the discovered FPC-containing newspaper images.
+
+![Detected FPC URL result file](assets/detected-fpc-url-results.png)
+
+## Public YOLOv5_FPC Detector Script
+
+As part of the paper, I also developed a **YOLOv5_FPC Detector script on Google Colab** so that other users could upload local image ZIP files and detect four-panel cartoons without setting up a local GPU environment.
+
+The script installs YOLOv5 dependencies, downloads the trained YOLOv5_FPC weights, accepts a ZIP file upload, runs detection, saves label outputs, packages the detected images, and returns a downloadable ZIP file.
+
+![Google Colab detector setup and weight download](assets/colab-detector-setup.png)
+
+![Google Colab detector upload and inference process](assets/colab-detector-upload.png)
+
+![Google Colab detector output packaging and download](assets/colab-detector-download.png)
 
 ## Publication and Public Service Impact
 
@@ -128,6 +135,7 @@ The research was conducted with Chosun Ilbo Media Institute, and the relevant pu
 - Public service: [Chosun Ilbo News Library - Meongteongguri four-panel cartoons](https://archive.chosun.com/cartoon/toon_comics.html)
 - Metadata dataset DOI: [10.7910/DVN/DFVZWE](https://doi.org/10.7910/DVN/DFVZWE)
 - Extracted FPC dataset DOI: [10.7910/DVN/KTF1HP](https://doi.org/10.7910/DVN/KTF1HP)
+- YOLOv5_FPC Detector Colab script: [Google Colab](https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing)
 
 ## Detailed Documentation
 

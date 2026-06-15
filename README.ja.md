@@ -36,6 +36,7 @@
 - precision / recall / mAP / F1によるモデル評価
 - 47,777画像へのbatch detection
 - 検出結果のメタデータ化およびデータベース構築
+- Google Colab上で動作するYOLOv5_FPC Detector Scriptの開発
 - 第一著者としての論文執筆、可視化、方法論整理
 - 公開データセットおよび実サービスにつながる成果整理
 
@@ -49,6 +50,7 @@
 - Metadata Design
 - Large-scale Batch Inference
 - Model Evaluation
+- Google Colab Detector Script
 - Cultural Heritage Data Infrastructure
 
 ## AI Developer / Data Scientist として示せる力

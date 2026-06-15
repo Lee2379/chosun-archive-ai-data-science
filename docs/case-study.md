@@ -11,8 +11,9 @@ The key professional value is not only that a model was trained. The stronger si
 3. Fine-tune and evaluate a computer vision model.
 4. Run large-scale detection over 47,777 images.
 5. Curate the output into metadata and database-ready records.
-6. Publish the work as a first-author English journal paper.
-7. Connect the result to a public archive service.
+6. Build a public Google Colab detector script for wider reuse.
+7. Publish the work as a first-author English journal paper.
+8. Connect the result to a public archive service.
 
 ## Business and Research Problem
 
@@ -31,11 +32,14 @@ The solution was an end-to-end object detection and data curation pipeline:
 - Evaluate detection quality using standard object detection metrics.
 - Apply the trained model to the full archive image set.
 - Curate detected results into structured metadata and URLs.
+- Provide a Google Colab detector script that lets users upload image ZIP files and download detected FPC results.
 - Publish the data and methodology for reuse.
 
 ## Delivery Outcome
 
 The final pipeline processed 47,777 JPG images and identified 1,040 FPC objects across 1,035 image files. The results were published in Journal of Open Humanities Data and made available through public data references and archive-service materials.
+
+The project also included a YOLOv5_FPC Detector script on Google Colab. This lowered the barrier for other users by handling dependency installation, model weight download, ZIP upload, detection execution, and output packaging in a browser-based environment.
 
 ## Why It Is Relevant for Data Science and AI Developer Roles
 
