@@ -1,6 +1,6 @@
-# Model Evaluation
+# AI Model Evaluation
 
-## Evaluation Goal
+## AI Model Evaluation Goal
 
 The model needed to be accurate enough to support large-scale discovery of four-panel cartoons from noisy historical newspaper images. Because the downstream task involved data curation, balanced precision and recall were important.
 
@@ -54,4 +54,4 @@ The improvement came from domain-specific data collection, labeling, and fine-tu
 
 ## Practical Evaluation Lesson
 
-This project demonstrates that model evaluation should be tied to the downstream business or research goal. The important question was not only "is the model accurate?" but also "does the model produce detections that can become a reliable database for public research and archive use?"
+This project demonstrates that AI model evaluation should be tied to the downstream business or research goal. The important question was not only "is the model accurate?" but also "does the model produce detections that can become a reliable database for public research, archive use, and new service value?"

@@ -4,7 +4,7 @@
 
 This project converted a large unstructured historical newspaper archive into a searchable four-panel cartoon data asset using a custom YOLOv5 object detector.
 
-The key professional value is business execution, not only model training. I took an ambiguous archive-content problem and moved it through the full delivery chain:
+The key professional value is end-to-end business, data science, and AI execution, not only model training. I took an ambiguous archive-content problem and moved it through the full delivery chain:
 
 1. Define a real archive-search problem.
 2. Build task-specific training data.
@@ -13,13 +13,13 @@ The key professional value is business execution, not only model training. I too
 5. Curate the output into metadata and database-ready records.
 6. Build a public Google Colab detector script for wider reuse.
 7. Publish the work as a first-author English journal paper.
-8. Connect the result to a public archive service.
+8. Connect the result to new public archive service value.
 
 ## Business Problem
 
 The Chosun Ilbo News Library contains digitized historical newspaper pages from 1920 to 1940. These pages include culturally and commercially meaningful archive content, but the content is embedded inside full-page scans with dense text, advertisements, and historical document noise.
 
-Manual discovery is slow, expensive, and difficult to scale. From a business perspective, the problem was how to turn hidden content in a legacy media archive into searchable, reusable data that could support public service value and downstream research use. The project therefore reframed the archive-search task as a computer vision and big-data problem: detect the four-panel cartoon regions directly from scanned newspaper images and curate the results into URL-based records.
+Manual discovery is slow, expensive, and difficult to scale. From a business perspective, the problem was how to turn hidden content in a legacy media archive into searchable, reusable data that could support public service value, new service creation, and downstream research use. The project therefore reframed the archive-search task as a business, data science, and AI problem: detect the four-panel cartoon regions directly from scanned newspaper images and curate the results into URL-based records.
 
 ## Solution
 

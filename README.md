@@ -1,6 +1,6 @@
 # YOLOv5_FPC: Four-Panel Cartoon Detection in the Chosun Ilbo Archive
 
-> Business-first industrial AI project demonstrating end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete data science and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and public service impact.
+> Business-first industrial AI project demonstrating end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and new public archive service value.
 
 [![JOHD Paper](https://img.shields.io/badge/JOHD-First%20Author%20Paper-bb2d2b)](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
 [![Journal Indexing](https://img.shields.io/badge/Indexed-ESCI%20%7C%20Scopus-2f6f9f)](https://openhumanitiesdata.metajnl.com/about)
@@ -15,9 +15,9 @@ This repository presents a portfolio-grade case study of my first-author English
 
 **Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36. DOI: [10.5334/johd.205](https://doi.org/10.5334/johd.205).**
 
-The project was conducted as an industry collaboration with **Chosun Ilbo Media Institute**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service and research use. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a computer vision and big-data workflow, collecting and labeling training data, fine-tuning YOLOv5, evaluating the detector, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
+The project was conducted as an industry collaboration with **Chosun Ilbo Media Institute**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service, research use, and new archive-service value. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling training data, fine-tuning YOLOv5, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
 
-> **日本語要約:** 朝鮮日報メディア研究所との産業連携において、レガシー新聞アーカイブに埋もれていた価値あるコンテンツを検索・再利用可能なデータ資産へ変換するため、曖昧なビジネス課題をAI開発課題として具体化し、データ構築、モデル開発、評価、大規模推論、DB化、検出ツール、論文発表までをend-to-endで推進しました。
+> **日本語要約:** 朝鮮日報メディア研究所との産業連携において、レガシー新聞アーカイブに埋もれていた価値あるコンテンツを検索・再利用可能なデータ資産へ変換するため、曖昧なビジネス課題をデータサイエンス・AI開発課題として具体化し、データ構築、AIモデル開発、評価、大規模推論、DB化、検出ツール、論文発表、新規サービス価値創出までをend-to-endで推進しました。
 
 | Area | Result |
 | --- | --- |
@@ -27,22 +27,22 @@ The project was conducted as an industry collaboration with **Chosun Ilbo Media 
 | Archive scope | 47,777 digitized Chosun Ilbo newspaper JPG images from 1920-1940 |
 | Detection output | 1,040 four-panel cartoon objects in 1,035 image files |
 | Model result | F1-confidence score of 0.97 at confidence threshold 0.708 |
-| Public impact | Searchable archive content asset, reusable research dataset, and Chosun Ilbo public service connection |
+| Business impact | Searchable archive content asset, reusable research dataset, and new Chosun Ilbo public archive service value |
 
 ## Business-First Positioning
 
-This project is best understood as an **ambiguous-business-problem-to-deliverable AI case study**. The starting point was not a clean benchmark dataset or a predefined Kaggle-style task. It was a broad industry problem: how to extract hidden value from a large media archive, reduce manual discovery cost, and convert unstructured newspaper images into a searchable data asset.
+This project is best understood as an **ambiguous-business-problem-to-deliverable AI case study**. The starting point was not a clean benchmark dataset or a predefined Kaggle-style task. It was a broad industry problem: how to extract hidden value from a large media archive, reduce manual discovery cost, convert unstructured newspaper images into a searchable data asset, and create new public archive service value.
 
-I structured the business problem into sequential delivery workstreams: archive source-data extraction, labeled dataset construction, object detection model adaptation, quantitative evaluation, large-scale inference, detected-result curation, reusable detector development, and publication/service handoff.
+I structured the business problem into sequential delivery workstreams: business problem framing, archive source-data extraction, labeled dataset construction, object detection model adaptation, AI model evaluation, large-scale inference, detected-result curation, reusable detector development, and publication/service handoff.
 
 | Business Need | Delivered Outcome |
 | --- | --- |
 | Discover valuable archive content at scale | YOLOv5_FPC detector applied to 47,777 newspaper images |
 | Reduce manual search and curation effort | Automated detection plus URL-based result files |
 | Turn unstructured images into reusable data | Curated metadata/database and public datasets |
-| Support public-facing archive value | Results connected to Chosun Ilbo News Library service |
+| Create public-facing archive service value | Results connected to Chosun Ilbo News Library service |
 
-> **日本語での位置づけ:** 価値あるアーカイブコンテンツを人手で探すという非効率な業務課題を、データ収集・AIモデル開発・評価・大規模処理・データ資産化・サービス連携までの実行可能なプロジェクトに分解し、最終成果まで責任を持って推進した事例です。
+> **日本語での位置づけ:** 価値あるアーカイブコンテンツを人手で探すという非効率な業務課題を、ビジネス課題定義、データ収集、AIモデル開発、AIモデル評価、大規模処理、データ資産化、新規サービス価値創出までの実行可能なプロジェクトに分解し、最終成果まで責任を持って推進した事例です。
 
 ## Why This Project Matters
 
@@ -69,7 +69,7 @@ I led the technical and analytical work across the full lifecycle:
 - Contributed writing, methodology, software, formal analysis, visualization, and review/editing as first author.
 - Helped turn research output into reusable public data and visible archive-service impact.
 
-> **担当範囲:** 曖昧な課題の具体化、学習データ作成、ラベリング、YOLOv5 fine-tuning、評価、大規模検出、メタデータ/DB構築、検出スクリプト開発、論文執筆・可視化までを一貫して担当しました。
+> **担当範囲:** 曖昧なビジネス課題の具体化、学習データ作成、ラベリング、YOLOv5 fine-tuning、AIモデル評価、大規模検出、メタデータ/DB構築、検出スクリプト開発、論文執筆・可視化までを一貫して担当しました。
 
 ![Author contribution statement](assets/author-contribution.jpg)
 
@@ -101,7 +101,7 @@ The training curves showed improved localization, objectness, and classification
 
 ![Training and validation metrics](assets/training-metrics.png)
 
-The fine-tuned detector achieved a strong F1-confidence result:
+The fine-tuned AI model achieved a strong F1-confidence result:
 
 - **F1-score:** 0.97
 - **Confidence threshold:** 0.708
@@ -151,7 +151,7 @@ This project was published as a first-author paper in the **Journal of Open Huma
 
 The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons.
 
-> **実社会での成果:** 研究成果は公開データセット、論文、そして朝鮮日報ニュースライブラリの公開サービスへと接続されました。
+> **ビジネスインパクト:** 研究成果は公開データセット、論文、再利用可能なAI検出ツール、そして朝鮮日報ニュースライブラリの公開サービス価値創出へと接続されました。
 
 ![Chosun Ilbo public archive overview](assets/chosun-service-overview.jpg)
 
