@@ -4,12 +4,6 @@
 
 > **日本語要約:** KAIST修士課程中にChosun Ilbo Media Instituteと実施したR&D産業連携AIプロジェクトであり、国際英文学術誌に第一著者として発表しました。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、公開サービス、書籍/IPビジネス成果までend-to-endで実現しました。
 
-## For Japanese Hiring Reviewers
-
-This repository is positioned for Data Scientist / AI Developer review in Japan. It is not only a model demo; it is an end-to-end business AI case study from unclear stakeholder demand to deployed public service value.
-
-> **日本語:** 本リポジトリは、日本企業のData Scientist / AI Developer選考を想定し、単なるモデル実装ではなく、曖昧な事業課題をデータサイエンス・AI開発・大規模データ処理・DB構築・公開サービス・IPビジネス成果へ接続した実務型ポートフォリオとして整理しています。
-
 ## Project Evidence
 
 | Evidence | Professional Signal |
@@ -210,4 +204,4 @@ The research was conducted as a KAIST master's R&D industry project with Chosun 
 
 ## Japanese Summary
 
-For Japanese hiring reviewers, see [README.ja.md](README.ja.md).
+Japanese version: [README.ja.md](README.ja.md).
