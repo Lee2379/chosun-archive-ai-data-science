@@ -1,8 +1,14 @@
-# YOLOv5_FPC: Four-Panel Cartoon Detection in the Chosun Ilbo Archive
+# Business, Data Science, and AI: Mining Four-Panel Cartoon IP from the Chosun Ilbo Archive
 
-> As the first author of this journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and new public archive service value.
+> As the first author of this journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, public archive service value, and downstream book/IP business output.
 
-> **日本語要約:** KAIST修士課程中にChosun Ilbo Media Instituteと実施したR&D産業連携AIプロジェクトであり、国際英文学術誌に第一著者として発表しました。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、新規公開サービス価値までend-to-endで実現しました。
+> **日本語要約:** KAIST修士課程中にChosun Ilbo Media Instituteと実施したR&D産業連携AIプロジェクトであり、国際英文学術誌に第一著者として発表しました。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、公開サービス、書籍/IPビジネス成果までend-to-endで実現しました。
+
+## For Japanese Hiring Reviewers
+
+This repository is positioned for Data Scientist / AI Developer review in Japan. It is not only a model demo; it is an end-to-end business AI case study from unclear stakeholder demand to deployed public service value.
+
+> **日本語:** 本リポジトリは、日本企業のData Scientist / AI Developer選考を想定し、単なるモデル実装ではなく、曖昧な事業課題をデータサイエンス・AI開発・大規模データ処理・DB構築・公開サービス・IPビジネス成果へ接続した実務型ポートフォリオとして整理しています。
 
 ## Project Evidence
 
@@ -11,6 +17,8 @@
 | [First-author JOHD paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205) | Peer-reviewed English journal publication |
 | [ESCI / Scopus indexed journal](https://openhumanitiesdata.metajnl.com/about) | Internationally indexed academic venue |
 | [Chosun Ilbo public archive service](https://archive.chosun.com/cartoon/toon_comics.html) | Public-facing service impact from industry collaboration |
+| [Media coverage by Journalists Association of Korea](https://www.journalist.or.kr/news/article.html?no=56909) | External validation of restoration, deep-learning detection, and service launch |
+| Book publication, co-author | Evidence that the data science output connected to content/IP business use |
 | KAIST master's R&D industry project | Conducted with Chosun Ilbo Media Institute during my master's program |
 | Business, Data Science, and AI | Problem structuring, big-data pipeline, computer vision, evaluation, and data-asset delivery |
 
@@ -35,7 +43,7 @@ The project was conducted as an **R&D industry collaboration with Chosun Ilbo Me
 | Archive scope | 47,777 digitized Chosun Ilbo newspaper JPG images from 1920-1940 |
 | Detection output | 1,040 four-panel cartoon objects in 1,035 image files |
 | Model result | F1-confidence score of 0.97 at confidence threshold 0.708 |
-| Business impact | Searchable archive content asset, reusable research dataset, and new Chosun Ilbo public archive service value |
+| Business impact | Searchable archive content asset, reusable research dataset, Chosun Ilbo public archive service value, and book/IP business output |
 
 ## Business-First Positioning
 
@@ -48,7 +56,7 @@ I structured the business problem into sequential delivery workstreams: business
 | Find four-panel cartoons for new archive-based business value | YOLOv5_FPC detector applied to 47,777 newspaper images |
 | Reduce manual search and curation effort | Automated detection plus URL-based result files |
 | Turn unstructured images into reusable data | Curated metadata/database and public datasets |
-| Create public-facing archive service value | Results connected to Chosun Ilbo News Library service |
+| Create public-facing archive service and IP business value | Results connected to Chosun Ilbo News Library service and downstream book publication |
 
 > **日本語での位置づけ:** 価値あるアーカイブコンテンツを人手で探すという非効率な業務課題を、ビジネス課題定義、データ収集、AIモデル開発、AIモデル評価、大規模処理、データ資産化、新規サービス価値創出までの実行可能なプロジェクトに分解し、最終成果まで責任を持って推進した事例です。
 
@@ -153,6 +161,8 @@ The script installs YOLOv5 dependencies, downloads the trained YOLOv5_FPC weight
 
 > **再利用性:** Google Colab上で動作する検出スクリプトを用意し、ローカルGPU環境がないユーザーでもFPC検出を試せるようにしました。
 
+A public-safe Python inference template is included at [`src/yolov5_fpc_inference_demo.py`](src/yolov5_fpc_inference_demo.py). It mirrors the detector workflow without bundling private archive dumps, proprietary internal materials, or model weights.
+
 ![Google Colab detector setup and weight download](assets/colab-detector-setup.png)
 
 ![Google Colab detector upload and inference process](assets/colab-detector-upload.png)
@@ -161,17 +171,21 @@ The script installs YOLOv5 dependencies, downloads the trained YOLOv5_FPC weight
 
 ## Publication and Business Impact
 
-This project was published as a first-author paper in the **Journal of Open Humanities Data**, an English journal indexed in **ESCI** and **Scopus**. The paper and datasets make the methodology and discovered data reusable for cultural heritage data infrastructure and large-scale document AI.
+This project was published as a first-author paper in the **Journal of Open Humanities Data**, an English journal indexed in **ESCI** and **Scopus**. The paper and datasets make the methodology and discovered data reusable for archive data infrastructure, content/IP discovery, and large-scale document AI.
 
-The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons.
+The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons. The broader restoration and service launch was covered by the Journalists Association of Korea, which reported that the project began as a Chosun Ilbo Media Institute research task, used deep-learning detection technology, and led to a public release of the restored series.
 
-> **ビジネスインパクト:** 研究成果は公開データセット、論文、再利用可能なAI検出ツール、そして朝鮮日報ニュースライブラリの公開サービス価値創出へと接続されました。
+The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For portfolio safety, this repository includes only the book cover as public-facing evidence and does not redistribute interior book pages.
+
+> **ビジネスインパクト:** 研究成果は公開データセット、論文、再利用可能なAI検出ツール、朝鮮日報ニュースライブラリの公開サービス、さらに書籍/IPビジネス成果へと接続されました。
 
 ![Chosun Ilbo public archive overview](assets/chosun-service-overview.jpg)
 
 ![Chosun Ilbo public archive list](assets/chosun-service-list.jpg)
 
 ![Chosun Ilbo public archive detail page](assets/chosun-service-detail.jpg)
+
+![Book publication cover](assets/book-cover-meongteongguri.png)
 
 ## Public Data and Copyright Note
 
@@ -186,9 +200,11 @@ The research was conducted as a KAIST master's R&D industry project with Chosun 
 - Paper: [Journal of Open Humanities Data article](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
 - Journal indexing: [JOHD About page](https://openhumanitiesdata.metajnl.com/about)
 - Public service: [Chosun Ilbo News Library - Meongteongguri four-panel cartoons](https://archive.chosun.com/cartoon/toon_comics.html)
+- Media coverage: [Journalists Association of Korea article](https://www.journalist.or.kr/news/article.html?no=56909)
 - Metadata dataset DOI: [10.7910/DVN/DFVZWE](https://doi.org/10.7910/DVN/DFVZWE)
 - Extracted FPC dataset DOI: [10.7910/DVN/KTF1HP](https://doi.org/10.7910/DVN/KTF1HP)
 - YOLOv5_FPC Detector Colab script: [Google Colab](https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing)
+- Public-safe Python detector template: [`src/yolov5_fpc_inference_demo.py`](src/yolov5_fpc_inference_demo.py)
 
 ## Detailed Documentation
 

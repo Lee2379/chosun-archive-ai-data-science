@@ -1,4 +1,4 @@
-# Case Study: From Historical Archive Images to Public Cultural Data
+# Case Study: From Ambiguous Business Demand to AI-Driven Archive Service Value
 
 ## Executive Summary
 
@@ -13,7 +13,7 @@ The key professional value is end-to-end business, data science, and AI executio
 5. Curate the output into metadata and database-ready records.
 6. Build a public Google Colab detector script for wider reuse.
 7. Publish the work as a first-author English journal paper.
-8. Connect the result to new public archive service value.
+8. Connect the result to new public archive service value and downstream book/IP business output.
 
 ## Business Problem
 
@@ -43,6 +43,8 @@ The final pipeline processed 47,777 JPG images and identified 1,040 FPC objects 
 
 The project also included a YOLOv5_FPC Detector script on Google Colab. This lowered the barrier for other users by handling dependency installation, model weight download, ZIP upload, detection execution, and output packaging in a browser-based environment.
 
+The business outcome extended beyond research publication. The work connected to Chosun Ilbo's public archive service, received external media coverage, and supported book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author.
+
 ## Why It Is Relevant for Data Science and AI Developer Roles
 
 This project demonstrates the ability to connect modeling work to a real data product:
@@ -64,3 +66,4 @@ For hiring review, this project should be read as a research-to-production case 
 - Data credibility: large-scale archive processing and metadata curation.
 - Engineering credibility: model fine-tuning, batch inference, and evaluation.
 - Impact credibility: public dataset and public archive-service connection.
+- Business credibility: public service connection, media validation, and book/IP business output.

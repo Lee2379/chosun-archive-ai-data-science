@@ -47,6 +47,24 @@ The detected and curated results are connected to Chosun Ilbo's public archive e
 
 ![Chosun Ilbo service list](../assets/chosun-service-list.jpg)
 
+## Media Coverage and External Validation
+
+The broader restoration and public release was covered by the Journalists Association of Korea:
+
+- Media article: https://www.journalist.or.kr/news/article.html?no=56909
+
+The article reports that the restoration began as a Chosun Ilbo Media Institute research project, that KAIST Prof. Bong Gwan Jun's team performed the task, that deep-learning detection technology was used, and that the extracted cartoons were connected to service work by Chosun Ilbo digital teams.
+
+> **日本語要約:** 外部メディア報道により、研究課題、深層学習による検出、デジタル復元、公開サービス化までの流れが確認できるため、単なる研究ではなく実ビジネス成果につながったプロジェクトとして説明できます。
+
+## Book and IP Business Output
+
+The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. This is useful portfolio evidence because it shows that the data science and AI pipeline did not stop at model development; it supported content discovery, archive restoration, service value, and downstream IP/business use.
+
+For public-portfolio safety, this repository includes only the book cover as evidence and does not redistribute interior pages.
+
+![Book publication cover](../assets/book-cover-meongteongguri.png)
+
 ## Professional Impact
 
 For Data Scientist and AI Developer hiring review, this project shows:
@@ -57,6 +75,7 @@ For Data Scientist and AI Developer hiring review, this project shows:
 - Computer vision model adaptation to a difficult domain.
 - Dataset and metadata design.
 - Public-facing impact beyond a notebook experiment.
+- Business impact connected to public service, media validation, and book/IP output.
 
 ## Interview Talking Points
 

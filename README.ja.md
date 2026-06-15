@@ -1,12 +1,12 @@
-# YOLOv5_FPC: 朝鮮日報アーカイブにおける四コマ漫画検出プロジェクト
+# Business, Data Science, and AI: 朝鮮日報アーカイブから四コマ漫画IPを発掘した産業連携プロジェクト
 
-> 新聞アーカイブに埋もれていた四コマ漫画を検出・構造化し、研究データセットおよび実サービスにつなげた産業連携AIプロジェクト。
+> 曖昧なビジネス要求から出発し、新聞アーカイブに埋もれていた四コマ漫画をAIで検出・構造化し、研究データセット、公開サービス、書籍/IPビジネス成果につなげたend-to-end産業連携AIプロジェクト。
 
 [English README](README.md)
 
 ## プロジェクト概要
 
-本リポジトリは、KAIST修士課程中に **Chosun Ilbo Media Institute** と実施したR&D産業連携AIプロジェクトを、データサイエンティスト / AI Developer 向けのポートフォリオとして整理したものです。本研究は、私が第一著者として英文学術誌 **Journal of Open Humanities Data** に発表しました。
+本リポジトリは、KAIST修士課程中に **Chosun Ilbo Media Institute** と実施したR&D産業連携AIプロジェクトを、日本企業のデータサイエンティスト / AI Developer 向けのポートフォリオとして整理したものです。本研究は、私が第一著者として英文学術誌 **Journal of Open Humanities Data** に発表しました。
 
 対象は、1920年から1940年までの朝鮮日報デジタル新聞アーカイブです。東アジアにおける漫画コンテンツ需要の高まりを背景に、朝鮮日報は新しいアーカイブサービス・ビジネス価値を創出するため、膨大な新聞データベースから四コマ漫画を発見・構造化する必要がありました。しかし、対象は非構造なスキャン画像内に埋もれており、どこから着手すべきかが明確でなく、検出も困難でした。本プロジェクトでは、この曖昧なビジネス課題をデータサイエンス・AI開発課題へ具体化し、四コマ漫画を物体検出モデルで自動抽出し、検索・閲覧可能なデータベースとして活用できる形に構造化しました。
 
@@ -21,7 +21,8 @@
 | 対象データ | 1920-1940年の新聞画像 47,777 JPG files |
 | 検出結果 | 1,035ファイル内に1,040個の四コマ漫画オブジェクト |
 | モデル評価 | F1-confidence 0.97 at threshold 0.708 |
-| 実社会での成果 | 公開研究データセットおよび朝鮮日報ニュースライブラリの実サービスに接続 |
+| 実社会での成果 | 公開研究データセット、朝鮮日報ニュースライブラリの実サービス、書籍/IPビジネス成果に接続 |
+| 外部検証 | 韓国記者協会の記事でデジタル復元・深層学習検出・サービス化が報道 |
 
 ![Public archive service](assets/chosun-service-overview.jpg)
 
@@ -39,7 +40,7 @@
 - 検出結果のメタデータ化およびデータベース構築
 - Google Colab上で動作するYOLOv5_FPC Detector Scriptの開発
 - 第一著者としての論文執筆、可視化、方法論整理
-- 公開データセットおよび実サービスにつながる成果整理
+- 公開データセット、実サービス、書籍/IPビジネス成果につながる成果整理
 
 ## 技術スタック
 
@@ -52,7 +53,8 @@
 - Large-scale Batch Inference
 - Model Evaluation
 - Google Colab Detector Script
-- Cultural Heritage Data Infrastructure
+- Public-safe Python detector template
+- Archive Data Infrastructure
 
 ## AI Developer / Data Scientist として示せる力
 
@@ -63,7 +65,7 @@
 - モデル評価を数値と可視化の両面で説明する力
 - 大規模データに対してbatch inferenceを実行する力
 - 検出結果をサービスやデータベースで使える形に構造化する力
-- 産業パートナーと協業し、論文・公開データ・実サービスまで成果を届ける力
+- 産業パートナーと協業し、論文・公開データ・実サービス・書籍/IPビジネス成果まで届ける力
 
 ## 公開データと著作権に関する注記
 
@@ -76,5 +78,8 @@
 - 論文: [Journal of Open Humanities Data](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
 - ジャーナル情報: [JOHD About](https://openhumanitiesdata.metajnl.com/about)
 - 実サービス: [朝鮮日報ニュースライブラリ - 멍텅구리 네컷만화](https://archive.chosun.com/cartoon/toon_comics.html)
+- 外部報道: [韓国記者協会 記事](https://www.journalist.or.kr/news/article.html?no=56909)
 - Metadata dataset DOI: [10.7910/DVN/DFVZWE](https://doi.org/10.7910/DVN/DFVZWE)
 - Extracted FPC dataset DOI: [10.7910/DVN/KTF1HP](https://doi.org/10.7910/DVN/KTF1HP)
+- YOLOv5_FPC Detector Colab script: [Google Colab](https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing)
+- Public-safe Python detector template: `src/yolov5_fpc_inference_demo.py`

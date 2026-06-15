@@ -13,7 +13,7 @@ flowchart TD
     E --> F["Model evaluation"]
     F --> G["Large-scale archive detection"]
     G --> H["Metadata/database curation"]
-    H --> I["Publication and public reuse"]
+    H --> I["Publication, service, and business impact"]
 ```
 
 ## Problem Definition
@@ -81,6 +81,8 @@ The paper also included a YOLOv5_FPC Detector script implemented on Google Colab
 - Run FPC detection in the Colab runtime.
 - Save labels and detected result images.
 - Package detected images into a downloadable ZIP file.
+
+This repository also includes a public-safe Python inference template at [`../src/yolov5_fpc_inference_demo.py`](../src/yolov5_fpc_inference_demo.py). The template shows the detector execution pattern while avoiding redistribution of private archive dumps, proprietary internal materials, or model weights.
 
 ## Public Reuse
 
