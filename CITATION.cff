@@ -10,7 +10,7 @@ authors:
   - family-names: Jun
     given-names: Bong Gwan
 date-released: "2024"
-repository-code: "https://github.com/Lee2379/yolov5-fpc-chosun-archive"
+repository-code: "https://github.com/Lee2379/chosun-archive-ai-data-science"
 abstract: "A public portfolio case study of an end-to-end KAIST and Chosun Ilbo Media Institute R&D industry project that connected computer vision, large-scale archive data curation, public service value, and publication impact."
 preferred-citation:
   type: article
