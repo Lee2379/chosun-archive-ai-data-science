@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1510" viewBox="0 0 1100 1510" role="img" aria-labelledby="title desc">
-  <title id="title">End-to-end YOLOv5_FPC delivery flow</title>
-  <desc id="desc">A professional vertical workflow diagram with red outline boxes and Japanese subtitles, showing how an ambiguous archive problem was structured into a big-data and AI development pipeline with public service impact.</desc>
+  <title id="title">Business-to-AI YOLOv5_FPC delivery flow</title>
+  <desc id="desc">A professional vertical workflow diagram with red outline boxes and Japanese subtitles, showing how an ambiguous business archive problem was structured into a big-data and AI development pipeline with public service impact.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="8" markerHeight="8" orient="auto">
       <path d="M 0 0 L 10 0 L 5 10 z" fill="#ef4444"/>
@@ -19,18 +19,18 @@
   <rect width="1100" height="1510" fill="#ffffff"/>
 
   <g transform="translate(64, 42)">
-    <text class="title" x="0" y="0">End-to-End AI / Big Data Delivery Flow</text>
-    <text class="note" x="0" y="44">From ambiguous industry problem structuring to a published dataset, reusable detector, and public archive service.</text>
-    <text class="jp" x="0" y="78">産業課題の定義から、データセット公開・再利用可能な検出ツール・実サービス連携までを一貫して推進。</text>
+    <text class="title" x="0" y="0">Business-to-AI Delivery Flow</text>
+    <text class="note" x="0" y="44">From ambiguous business problem structuring to a searchable data asset, reusable detector, and public archive service.</text>
+    <text class="jp" x="0" y="78">曖昧なビジネス課題を、検索可能なデータ資産・再利用ツール・実サービス連携まで具体化。</text>
     <line x1="0" y1="110" x2="972" y2="110" stroke="#d1d5db" stroke-width="1"/>
   </g>
 
   <g text-anchor="middle">
     <g transform="translate(280, 190)">
       <rect class="box" width="540" height="122"/>
-      <text class="main" x="270" y="37">1. Ambiguous Problem Structuring</text>
-      <text class="sub" x="270" y="69">Convert an archive challenge into an AI and big-data workflow</text>
-      <text class="jp" x="270" y="99">（ビジネス・研究課題の定義）</text>
+      <text class="main" x="270" y="37">1. Business Problem Structuring</text>
+      <text class="sub" x="270" y="69">Convert hidden archive value into an AI and big-data plan</text>
+      <text class="jp" x="270" y="99">（ビジネス課題の具体化）</text>
     </g>
     <line class="line" x1="550" y1="312" x2="550" y2="360"/>
 
@@ -76,9 +76,9 @@
 
     <g transform="translate(280, 1270)">
       <rect class="box" width="540" height="122"/>
-      <text class="main" x="270" y="37">7. Publication, Tool, and Service Impact</text>
-      <text class="sub" x="270" y="69">First-author JOHD paper, Colab detector, public archive service</text>
-      <text class="jp" x="270" y="99">（論文・再利用ツール・実サービス連携）</text>
+      <text class="main" x="270" y="37">7. Business Output and Service Impact</text>
+      <text class="sub" x="270" y="69">Searchable data asset, Colab detector, first-author paper, public service</text>
+      <text class="jp" x="270" y="99">（データ資産・再利用ツール・実サービス連携）</text>
     </g>
   </g>
 </svg>

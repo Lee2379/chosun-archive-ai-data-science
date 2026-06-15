@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-This project converted a large unstructured historical newspaper archive into a searchable four-panel cartoon dataset using a custom YOLOv5 object detector.
+This project converted a large unstructured historical newspaper archive into a searchable four-panel cartoon data asset using a custom YOLOv5 object detector.
 
-The key professional value is not only that a model was trained. The stronger signal is that the project moved through the full delivery chain:
+The key professional value is business execution, not only model training. I took an ambiguous archive-content problem and moved it through the full delivery chain:
 
 1. Define a real archive-search problem.
 2. Build task-specific training data.
@@ -15,11 +15,11 @@ The key professional value is not only that a model was trained. The stronger si
 7. Publish the work as a first-author English journal paper.
 8. Connect the result to a public archive service.
 
-## Business and Research Problem
+## Business Problem
 
-The Chosun Ilbo News Library contains digitized historical newspaper pages from 1920 to 1940. These pages include culturally important four-panel cartoons, but the cartoons are embedded inside full-page scans with dense text, advertisements, and historical document noise.
+The Chosun Ilbo News Library contains digitized historical newspaper pages from 1920 to 1940. These pages include culturally and commercially meaningful archive content, but the content is embedded inside full-page scans with dense text, advertisements, and historical document noise.
 
-Manual discovery is slow, expensive, and difficult to scale. The project therefore reframed the archival search task as a computer vision problem: detect the four-panel cartoon regions directly from scanned newspaper images.
+Manual discovery is slow, expensive, and difficult to scale. From a business perspective, the problem was how to turn hidden content in a legacy media archive into searchable, reusable data that could support public service value and downstream research use. The project therefore reframed the archive-search task as a computer vision and big-data problem: detect the four-panel cartoon regions directly from scanned newspaper images and curate the results into URL-based records.
 
 ## Solution
 
