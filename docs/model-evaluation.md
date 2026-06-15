@@ -31,6 +31,10 @@ The fine-tuned YOLOv5_FPC model achieved:
 
 ![F1-confidence curve](../assets/f1-confidence.png)
 
+The same project also produced representative full-page detection examples in my master's thesis work. The example below shows the fine-tuned YOLOv5_FPC detector localizing both `FPC_4x1` and `FPC_2x2` layouts in a historical newspaper page.
+
+![Representative YOLOv5_FPC detection result](../assets/representative-fpc-detection-result.png)
+
 ## Interpretation
 
 For this project, the F1-confidence score is especially important because the pipeline had to balance:

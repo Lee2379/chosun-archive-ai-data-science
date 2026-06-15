@@ -86,6 +86,10 @@ The fine-tuned detector achieved a strong F1-confidence result:
 
 ![F1-confidence curve](assets/f1-confidence.png)
 
+The following representative detection result, produced within the same project and included in my master's thesis work, shows the fine-tuned YOLOv5_FPC model detecting both 4x1 and 2x2 FPC layouts on a full historical newspaper page.
+
+![Representative YOLOv5_FPC detection result](assets/representative-fpc-detection-result.png)
+
 ## Data and Database Curation
 
 The data work had two separate stages: first, building the source archive image collection; second, curating the model-detected FPC results.
