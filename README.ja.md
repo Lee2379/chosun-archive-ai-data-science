@@ -33,7 +33,7 @@
 - 学習データの収集
 - 画像ラベリングとYOLO形式データセット構築
 - 大規模新聞アーカイブのデータ収集・分析
-- 自ら収集した学習データによるYOLOv5のfine-tuningとYOLOv5_FPCモデル開発
+- 自ら収集したFPC学習データによるYOLOv5のfine-tuningとYOLOv5_FPCモデル開発
 - precision / recall / mAP / F1によるモデル評価
 - 47,777画像へのbatch detection
 - 検出結果のメタデータ化およびデータベース構築

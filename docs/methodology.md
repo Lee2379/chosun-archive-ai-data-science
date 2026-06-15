@@ -45,7 +45,7 @@ The paper reports a split of:
 
 The base YOLOv5 model was not sufficient for the target domain because it was trained on general-purpose COCO objects. On historical newspaper pages, the baseline model produced irrelevant detections such as generic object categories.
 
-I therefore fine-tuned the YOLOv5 model on the training dataset I collected, developing the YOLOv5_FPC model. This was the domain adaptation step that converted a general object detector into a task-specific detector for four-panel cartoons in historical newspaper pages.
+I therefore fine-tuned the YOLOv5 model on the FPC training dataset I collected, developing the YOLOv5_FPC model. This was the domain adaptation step that converted a general object detector into a task-specific detector for four-panel cartoons in historical newspaper pages.
 
 Fine-tuning adapted the model to the visual structure of FPCs:
 

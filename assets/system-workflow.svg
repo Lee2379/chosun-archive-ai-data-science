@@ -53,8 +53,8 @@
     <g transform="translate(280, 730)">
       <rect class="box" width="540" height="122"/>
       <text class="main" x="270" y="37">4. YOLOv5_FPC Fine-Tuning</text>
-      <text class="sub" x="270" y="69">Develop YOLOv5_FPC with self-collected training data</text>
-      <text class="jp" x="270" y="99">（自ら収集した学習データでfine-tuning）</text>
+      <text class="sub" x="270" y="69">Develop YOLOv5_FPC with self-collected FPC training data</text>
+      <text class="jp" x="270" y="99">（自ら収集したFPC学習データでfine-tuning）</text>
     </g>
     <line class="line" x1="550" y1="852" x2="550" y2="900"/>
 

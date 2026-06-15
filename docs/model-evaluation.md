@@ -54,7 +54,7 @@ The initial YOLOv5 model could not identify FPCs because the target object was o
 
 ![Baseline YOLOv5 failure](../assets/baseline-yolov5-failure.jpg)
 
-The improvement came from self-collected domain-specific training data, labeling, and YOLOv5 fine-tuning rather than relying on a pretrained detector as-is.
+The improvement came from self-collected FPC training data, labeling, and YOLOv5 fine-tuning rather than relying on a pretrained detector as-is.
 
 ## Practical Evaluation Lesson
 
