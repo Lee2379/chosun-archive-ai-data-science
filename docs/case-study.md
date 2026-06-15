@@ -19,6 +19,8 @@ The key professional value is end-to-end business, data science, and AI executio
 
 The Chosun Ilbo News Library contains digitized historical newspaper pages from 1920 to 1940. These pages include culturally and commercially meaningful archive content, but the content is embedded inside full-page scans with dense text, advertisements, and historical document noise.
 
+Demand for cartoon content has been increasing across East Asia, creating a potential new business and service opportunity for archive owners. Chosun Ilbo wanted to discover four-panel cartoons from its large historical database, but the starting point was unclear: the cartoons were not stored as clean structured records, and their visual format made detection difficult in noisy, unstructured newspaper scans.
+
 Manual discovery is slow, expensive, and difficult to scale. From a business perspective, the problem was how to turn hidden content in a legacy media archive into searchable, reusable data that could support public service value, new service creation, and downstream research use. The project therefore reframed the archive-search task as a business, data science, and AI problem: detect the four-panel cartoon regions directly from scanned newspaper images and curate the results into URL-based records.
 
 ## Solution

@@ -22,7 +22,7 @@ This repository presents a portfolio-grade case study of my first-author English
 
 **Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36. DOI: [10.5334/johd.205](https://doi.org/10.5334/johd.205).**
 
-The project was conducted as an **R&D industry collaboration with Chosun Ilbo Media Institute during my master's program at KAIST**. The business challenge was to unlock historically valuable cartoon content hidden inside a massive legacy newspaper image archive and turn it into searchable, reusable data for public service, research use, and new archive-service value. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling FPC training data, developing the YOLOv5_FPC model through YOLOv5 fine-tuning, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
+The project was conducted as an **R&D industry collaboration with Chosun Ilbo Media Institute during my master's program at KAIST**. The business challenge was driven by rising demand for cartoon content in East Asia: Chosun Ilbo wanted to explore new archive-based business and service opportunities by finding four-panel cartoons hidden inside its massive historical newspaper database, but the starting point was unclear because the target content was embedded in unstructured scanned pages and difficult to detect manually or programmatically. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling FPC training data, developing the YOLOv5_FPC model through YOLOv5 fine-tuning, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
 
 > **日本語要約:** 朝鮮日報メディア研究所との産業連携において、レガシー新聞アーカイブに埋もれていた価値あるコンテンツを検索・再利用可能なデータ資産へ変換するため、曖昧なビジネス課題をデータサイエンス・AI開発課題として具体化し、データ構築、AIモデル開発、評価、大規模推論、DB化、検出ツール、論文発表、新規サービス価値創出までをend-to-endで推進しました。
 
@@ -39,13 +39,13 @@ The project was conducted as an **R&D industry collaboration with Chosun Ilbo Me
 
 ## Business-First Positioning
 
-This project is best understood as an **ambiguous-business-problem-to-deliverable AI case study**. The starting point was not a clean benchmark dataset or a predefined Kaggle-style task. It was a broad industry problem: how to extract hidden value from a large media archive, reduce manual discovery cost, convert unstructured newspaper images into a searchable data asset, and create new public archive service value.
+This project is best understood as an **ambiguous-business-problem-to-deliverable AI case study**. The starting point was not a clean benchmark dataset or a predefined Kaggle-style task. It was a broad industry problem: growing demand for cartoon content created a new business opportunity, but the valuable content was buried inside a large legacy media archive. The challenge was how to extract hidden value from that archive, reduce manual discovery cost, convert unstructured newspaper images into a searchable data asset, and create new public archive service value.
 
 I structured the business problem into sequential delivery workstreams: business problem framing, archive source-data extraction, labeled dataset construction, object detection model adaptation, AI model evaluation, large-scale inference, detected-result curation, reusable detector development, and publication/service handoff.
 
 | Business Need | Delivered Outcome |
 | --- | --- |
-| Discover valuable archive content at scale | YOLOv5_FPC detector applied to 47,777 newspaper images |
+| Find four-panel cartoons for new archive-based business value | YOLOv5_FPC detector applied to 47,777 newspaper images |
 | Reduce manual search and curation effort | Automated detection plus URL-based result files |
 | Turn unstructured images into reusable data | Curated metadata/database and public datasets |
 | Create public-facing archive service value | Results connected to Chosun Ilbo News Library service |
