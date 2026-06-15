@@ -61,9 +61,7 @@ The article reports that the restoration began as a Chosun Ilbo Media Institute 
 
 The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. This is useful portfolio evidence because it shows that the data science and AI pipeline did not stop at model development; it supported content discovery, archive restoration, service value, and downstream IP/business use.
 
-For public-portfolio safety, this repository includes only the book cover as evidence and does not redistribute interior pages.
-
-![Book publication cover](../assets/book-cover-meongteongguri.png)
+For public-portfolio safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
 
 ## Professional Impact
 

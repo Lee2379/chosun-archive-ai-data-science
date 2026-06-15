@@ -1,4 +1,4 @@
-# Business, Data Science, and AI: Mining Four-Panel Cartoon IP from the Chosun Ilbo Archive
+# Business-Driven AI and Data Science for the Large-Scale Chosun Ilbo Archive
 
 > As the first author of this journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, public archive service value, and downstream book/IP business output.
 
@@ -20,7 +20,7 @@ This repository is positioned for Data Scientist / AI Developer review in Japan.
 | [Media coverage by Journalists Association of Korea](https://www.journalist.or.kr/news/article.html?no=56909) | External validation of restoration, deep-learning detection, and service launch |
 | Book publication, co-author | Evidence that the data science output connected to content/IP business use |
 | KAIST master's R&D industry project | Conducted with Chosun Ilbo Media Institute during my master's program |
-| Business, Data Science, and AI | Problem structuring, big-data pipeline, computer vision, evaluation, and data-asset delivery |
+| Business-driven AI and Data Science | Problem structuring, big-data pipeline, computer vision, evaluation, and data-asset delivery |
 
 ![Published paper title page](assets/paper-title.jpg)
 
@@ -175,7 +175,7 @@ This project was published as a first-author paper in the **Journal of Open Huma
 
 The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons. The broader restoration and service launch was covered by the Journalists Association of Korea, which reported that the project began as a Chosun Ilbo Media Institute research task, used deep-learning detection technology, and led to a public release of the restored series.
 
-The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For portfolio safety, this repository includes only the book cover as public-facing evidence and does not redistribute interior book pages.
+The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For portfolio safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
 
 > **ビジネスインパクト:** 研究成果は公開データセット、論文、再利用可能なAI検出ツール、朝鮮日報ニュースライブラリの公開サービス、さらに書籍/IPビジネス成果へと接続されました。
 
@@ -184,8 +184,6 @@ The project also connected to book/IP business output through the publication of
 ![Chosun Ilbo public archive list](assets/chosun-service-list.jpg)
 
 ![Chosun Ilbo public archive detail page](assets/chosun-service-detail.jpg)
-
-![Book publication cover](assets/book-cover-meongteongguri.png)
 
 ## Public Data and Copyright Note
 

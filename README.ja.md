@@ -1,4 +1,4 @@
-# Business, Data Science, and AI: 朝鮮日報アーカイブから四コマ漫画IPを発掘した産業連携プロジェクト
+# Business-Driven AI and Data Science for the Large-Scale Chosun Ilbo Archive
 
 > 曖昧なビジネス要求から出発し、新聞アーカイブに埋もれていた四コマ漫画をAIで検出・構造化し、研究データセット、公開サービス、書籍/IPビジネス成果につなげたend-to-end産業連携AIプロジェクト。
 
