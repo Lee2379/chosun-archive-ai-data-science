@@ -2,8 +2,8 @@
   <title id="title">End-to-end business, data science, and AI delivery flow</title>
   <desc id="desc">A professional vertical workflow diagram with red outline boxes and Japanese subtitles, showing how an ambiguous business archive problem was structured into an end-to-end business, data science, and AI development pipeline with new service value.</desc>
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M 0 0 L 10 0 L 5 10 z" fill="#ef4444"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/>
     </marker>
     <style>
       .title { font: 700 24px "Segoe UI", "Yu Gothic", Meiryo, Arial, sans-serif; fill: #111827; }
@@ -75,10 +75,11 @@
     <line class="line" x1="550" y1="1212" x2="550" y2="1260"/>
 
     <g transform="translate(280, 1270)">
-      <rect class="box" width="540" height="122"/>
+      <rect class="box" width="540" height="150"/>
       <text class="main" x="270" y="37">7. Business Impact and New Service Value</text>
-      <text class="sub" x="270" y="69">Searchable data asset, reusable AI tool, paper, public archive service</text>
-      <text class="jp" x="270" y="99">（事業インパクト・新規サービス価値創出）</text>
+      <text class="sub" x="270" y="69">Searchable data asset, reusable AI tool,</text>
+      <text class="sub" x="270" y="96">paper, and public archive service</text>
+      <text class="jp" x="270" y="126">（事業インパクト・新規サービス価値創出）</text>
     </g>
   </g>
 </svg>
