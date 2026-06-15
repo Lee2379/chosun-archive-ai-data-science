@@ -105,7 +105,7 @@ The detected results were curated into metadata tables with URLs, publication da
 
 ## Publication and Public Service Impact
 
-This project was published as a first-author paper in the **Journal of Open Humanities Data**, an English journal indexed in **ESCI** and **Scopus**. The paper and datasets make the methodology and discovered data reusable for digital humanities, cultural heritage research, and large-scale document AI.
+This project was published as a first-author paper in the **Journal of Open Humanities Data**, an English journal indexed in **ESCI** and **Scopus**. The paper and datasets make the methodology and discovered data reusable for cultural heritage data infrastructure and large-scale document AI.
 
 The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons.
 

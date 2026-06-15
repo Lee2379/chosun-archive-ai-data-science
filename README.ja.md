@@ -49,7 +49,7 @@
 - Metadata Design
 - Large-scale Batch Inference
 - Model Evaluation
-- Digital Humanities Data Infrastructure
+- Cultural Heritage Data Infrastructure
 
 ## AI Developer / Data Scientist として示せる力
 
