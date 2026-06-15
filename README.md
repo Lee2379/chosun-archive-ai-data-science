@@ -2,10 +2,14 @@
 
 > Business-first industrial AI project demonstrating end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and new public archive service value.
 
-[![JOHD Paper](https://img.shields.io/badge/JOHD-First%20Author%20Paper-bb2d2b)](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
-[![Journal Indexing](https://img.shields.io/badge/Indexed-ESCI%20%7C%20Scopus-2f6f9f)](https://openhumanitiesdata.metajnl.com/about)
-[![Public Service](https://img.shields.io/badge/Public%20Archive-Chosun%20Ilbo%20News%20Library-9a7a18)](https://archive.chosun.com/cartoon/toon_comics.html)
-[![Field](https://img.shields.io/badge/Field-Computer%20Vision%20%7C%20Data%20Science-333333)](#project-at-a-glance)
+## Project Evidence
+
+| Evidence | Professional Signal |
+| --- | --- |
+| [First-author JOHD paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205) | Peer-reviewed English journal publication |
+| [ESCI / Scopus indexed journal](https://openhumanitiesdata.metajnl.com/about) | Internationally indexed academic venue |
+| [Chosun Ilbo public archive service](https://archive.chosun.com/cartoon/toon_comics.html) | Public-facing service impact from industry collaboration |
+| Business, Data Science, and AI | Problem structuring, big-data pipeline, computer vision, evaluation, and data-asset delivery |
 
 ![Published paper title page](assets/paper-title.jpg)
 
