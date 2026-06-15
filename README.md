@@ -91,7 +91,7 @@ The initial YOLOv5 model was trained on general-purpose COCO categories. It did 
 
 ![Initial YOLOv5 failure on historical newspaper page](assets/baseline-yolov5-failure.jpg)
 
-To solve this, I developed the **YOLOv5_FPC model** by fine-tuning YOLOv5 with self-collected FPC training data. The model needed to handle:
+To solve this, I fine-tuned the YOLOv5 model on the training dataset I collected, developing the **YOLOv5_FPC model** for four-panel cartoon detection. The model needed to handle:
 
 - Degraded historical scans.
 - Dense Korean/Japanese text layouts.
