@@ -4,6 +4,21 @@
 
 [English README](README.md)
 
+## 日本企業向けポートフォリオ要約
+
+本プロジェクトは、KAIST修士課程中にChosun Ilbo Media Instituteと実施したR&D産業連携AIプロジェクトです。曖昧なビジネス要求から出発し、巨大な歴史新聞アーカイブに埋もれた四コマ漫画コンテンツを、データサイエンスとComputer Visionによって発見・構造化し、公開データセット、論文、検出ツール、実サービス価値へ接続しました。
+
+| 観点 | 内容 |
+| --- | --- |
+| ビジネス課題 | 大規模新聞アーカイブから再利用可能なコンテンツ/IP価値を発掘 |
+| 産業連携 | KAIST修士課程中のChosun Ilbo Media InstituteとのR&D project |
+| AI開発 | 自ら収集した学習データでYOLOv5をfine-tuningし、YOLOv5_FPCを開発 |
+| データサイエンス | 47,777 JPG画像の収集・分析・大規模検出・メタデータ/DB構築 |
+| 成果 | JOHD第一著者論文、ESCI/Scopus indexed journal、公開サービス連携 |
+| 示せる力 | 問題定義からデータ構築、AI評価、サービス価値化までのend-to-end ownership |
+
+日本企業のData Scientist / AI Developer選考では、単なるモデル検証ではなく、実在する産業課題をビジネス・データ・AI・公開成果物へつなげた実務型プロジェクトとして説明できます。
+
 ## プロジェクト概要
 
 本リポジトリは、KAIST修士課程中に **Chosun Ilbo Media Institute** と実施したR&D産業連携AIプロジェクトを、日本企業のデータサイエンティスト / AI Developer 向けのポートフォリオとして整理したものです。本研究は、私が第一著者として英文学術誌 **Journal of Open Humanities Data** に発表しました。
@@ -53,7 +68,6 @@
 - Large-scale Batch Inference
 - Model Evaluation
 - Google Colab Detector Script
-- Public-safe Python detector template
 - Archive Data Infrastructure
 
 ## AI Developer / Data Scientist として示せる力
@@ -82,4 +96,3 @@
 - Metadata dataset DOI: [10.7910/DVN/DFVZWE](https://doi.org/10.7910/DVN/DFVZWE)
 - Extracted FPC dataset DOI: [10.7910/DVN/KTF1HP](https://doi.org/10.7910/DVN/KTF1HP)
 - YOLOv5_FPC Detector Colab script: [Google Colab](https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing)
-- Public-safe Python detector template: `src/yolov5_fpc_inference_demo.py`

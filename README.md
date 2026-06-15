@@ -161,8 +161,6 @@ The script installs YOLOv5 dependencies, downloads the trained YOLOv5_FPC weight
 
 > **再利用性:** Google Colab上で動作する検出スクリプトを用意し、ローカルGPU環境がないユーザーでもFPC検出を試せるようにしました。
 
-A public-safe Python inference template is included at [`src/yolov5_fpc_inference_demo.py`](src/yolov5_fpc_inference_demo.py). It mirrors the detector workflow without bundling private archive dumps, proprietary internal materials, or model weights.
-
 ![Google Colab detector setup and weight download](assets/colab-detector-setup.png)
 
 ![Google Colab detector upload and inference process](assets/colab-detector-upload.png)
@@ -202,7 +200,6 @@ The research was conducted as a KAIST master's R&D industry project with Chosun 
 - Metadata dataset DOI: [10.7910/DVN/DFVZWE](https://doi.org/10.7910/DVN/DFVZWE)
 - Extracted FPC dataset DOI: [10.7910/DVN/KTF1HP](https://doi.org/10.7910/DVN/KTF1HP)
 - YOLOv5_FPC Detector Colab script: [Google Colab](https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing)
-- Public-safe Python detector template: [`src/yolov5_fpc_inference_demo.py`](src/yolov5_fpc_inference_demo.py)
 
 ## Detailed Documentation
 
