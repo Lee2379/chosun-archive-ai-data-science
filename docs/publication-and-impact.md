@@ -1,4 +1,4 @@
-# Publication and Impact
+# Publication and Business Impact
 
 ## Publication
 

@@ -83,7 +83,7 @@ I led the technical and analytical work across the full lifecycle:
 
 ## End-to-End Delivery Flow
 
-<img src="assets/system-workflow.svg" alt="End-to-end YOLOv5_FPC workflow from archive image collection to detector, curated data, publication, and public service impact" width="100%">
+<img src="assets/system-workflow.svg" alt="End-to-end YOLOv5_FPC workflow from archive image collection to detector, curated data, publication, and business impact" width="100%">
 
 ## Technical Challenge
 
@@ -157,7 +157,7 @@ The script installs YOLOv5 dependencies, downloads the trained YOLOv5_FPC weight
 
 ![Google Colab detector output packaging and download](assets/colab-detector-download.png)
 
-## Publication and Public Service Impact
+## Publication and Business Impact
 
 This project was published as a first-author paper in the **Journal of Open Humanities Data**, an English journal indexed in **ESCI** and **Scopus**. The paper and datasets make the methodology and discovered data reusable for cultural heritage data infrastructure and large-scale document AI.
 
@@ -191,7 +191,7 @@ The research was conducted as a KAIST master's R&D industry project with Chosun 
 - [Case study](docs/case-study.md)
 - [Methodology](docs/methodology.md)
 - [Model evaluation](docs/model-evaluation.md)
-- [Publication and impact](docs/publication-and-impact.md)
+- [Publication and business impact](docs/publication-and-impact.md)
 
 ## Japanese Summary
 
