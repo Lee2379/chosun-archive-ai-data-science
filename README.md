@@ -177,6 +177,8 @@ This repository is a public portfolio case study built from already published re
 
 The research was conducted as a KAIST master's R&D industry project with Chosun Ilbo Media Institute, and the relevant publication, dataset references, and public archive service are already available online. The repository focuses on explaining my role, methodology, evaluation, and impact for professional portfolio review.
 
+> **日本語要約:** 本リポジトリは、公開済みの論文、公開データセット参照、公開サービス画面に基づくポートフォリオです。非公開の原本アーカイブ、内部資料、未公開の協業ファイルは再配布していません。
+
 ## Links
 
 - Paper: [Journal of Open Humanities Data article](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
