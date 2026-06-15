@@ -1,6 +1,6 @@
 # YOLOv5_FPC: Four-Panel Cartoon Detection in the Chosun Ilbo Archive
 
-> Business-first industrial AI project published as a **first-author international English journal paper**: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and new public archive service value through end-to-end ownership.
+> As the first author of this international English journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, and new public archive service value.
 
 > **日本語要約:** 国際英文学術誌に第一著者として発表した産業連携AIプロジェクトです。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、新規公開サービス価値までend-to-endで実現しました。
 
