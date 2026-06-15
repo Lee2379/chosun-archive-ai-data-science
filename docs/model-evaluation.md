@@ -15,6 +15,58 @@ The evaluation considered standard object detection metrics:
 - F1-score: harmonic mean of precision and recall.
 - Training and validation losses: box, objectness, and classification losses.
 
+## Mathematical Foundation
+
+The detector was evaluated as an object detection model, where the learning objective combines bounding-box localization, object confidence, no-object confidence, and class prediction terms. At a conceptual level, the classical YOLO loss decomposes the objective as:
+
+$$
+\begin{aligned}
+\mathcal{L} =
+&\lambda_{\text{coord}} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{1}_{ij}^{\text{obj}}
+\left[(x_i-\hat{x}_i)^2 + (y_i-\hat{y}_i)^2\right] \\
+&+ \lambda_{\text{coord}} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{1}_{ij}^{\text{obj}}
+\left[(\sqrt{w_i}-\sqrt{\hat{w}_i})^2 + (\sqrt{h_i}-\sqrt{\hat{h}_i})^2\right] \\
+&+ \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{1}_{ij}^{\text{obj}}(C_i-\hat{C}_i)^2 \\
+&+ \lambda_{\text{noobj}} \sum_{i=0}^{S^2} \sum_{j=0}^{B} \mathbb{1}_{ij}^{\text{noobj}}(C_i-\hat{C}_i)^2 \\
+&+ \sum_{i=0}^{S^2} \mathbb{1}_{i}^{\text{obj}} \sum_{c \in \text{classes}} (p_i(c)-\hat{p}_i(c))^2
+\end{aligned}
+$$
+
+YOLOv5 uses updated implementation details for bounding-box, objectness, and classification losses, but this decomposition explains the mathematical foundation behind the detection task: the model had to localize FPC regions accurately on dense newspaper pages, avoid false detections in text-heavy areas, and distinguish FPC layout categories such as `FPC_4x1` and `FPC_2x2`.
+
+### Notation
+
+| Symbol | Meaning |
+| --- | --- |
+| $S^2$ | Number of grid cells |
+| $B$ | Number of bounding boxes per grid cell |
+| $\mathbb{1}_{ij}^{\text{obj}}$ | 1 if the $j$-th bounding box in cell $i$ is responsible for an object; otherwise 0 |
+| $\mathbb{1}_{ij}^{\text{noobj}}$ | 1 if the $j$-th bounding box in cell $i$ is not responsible for an object; otherwise 0 |
+| $x_i, y_i$ | Ground-truth bounding-box center coordinates |
+| $\hat{x}_i, \hat{y}_i$ | Predicted bounding-box center coordinates |
+| $w_i, h_i$ | Ground-truth bounding-box width and height |
+| $\hat{w}_i, \hat{h}_i$ | Predicted bounding-box width and height |
+| $C_i$ | Ground-truth confidence score |
+| $\hat{C}_i$ | Predicted confidence score |
+| $p_i(c)$ | Ground-truth conditional probability for class $c$ |
+| $\hat{p}_i(c)$ | Predicted conditional probability for class $c$ |
+| $\lambda_{\text{coord}}$ | Coordinate loss weight, commonly set to 5 |
+| $\lambda_{\text{noobj}}$ | No-object confidence loss weight, commonly set to 0.5 |
+
+The core evaluation metrics used to interpret detection quality were:
+
+$$
+\text{Precision} = \frac{\text{True Positive}}{\text{True Positive} + \text{False Positive}}
+$$
+
+$$
+\text{Recall} = \frac{\text{True Positive}}{\text{True Positive} + \text{False Negative}}
+$$
+
+$$
+\text{F1-score} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
+
 ## Training Behavior
 
 The training curves showed decreasing localization, objectness, and classification losses across the fine-tuning process. This indicated that the model was learning FPC-specific visual patterns rather than relying on generic COCO categories.

@@ -115,6 +115,8 @@ The fine-tuned AI model achieved a strong F1-confidence result:
 - **Confidence threshold:** 0.708
 - **Classes:** 4x1 and 2x2 four-panel cartoon categories
 
+The mathematical foundation of the model evaluation, including the YOLO-family loss objective, notation, precision, recall, and F1-score formulas, is documented in [AI Model Evaluation](docs/model-evaluation.md#mathematical-foundation).
+
 ![F1-confidence curve](assets/f1-confidence.png)
 
 The following representative detection result shows the fine-tuned YOLOv5_FPC model detecting both 4x1 and 2x2 FPC layouts on a full historical newspaper page.
