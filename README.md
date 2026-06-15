@@ -117,7 +117,7 @@ The fine-tuned AI model achieved a strong F1-confidence result:
 
 ![F1-confidence curve](assets/f1-confidence.png)
 
-The following representative detection result, produced within the same project and included in my master's thesis work, shows the fine-tuned YOLOv5_FPC model detecting both 4x1 and 2x2 FPC layouts on a full historical newspaper page.
+The following representative detection result shows the fine-tuned YOLOv5_FPC model detecting both 4x1 and 2x2 FPC layouts on a full historical newspaper page.
 
 > **評価観点:** 数値指標だけでなく、実際の新聞紙面上で対象物を正しく局所化できるかを確認しました。
 
