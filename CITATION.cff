@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: "YOLOv5_FPC: Four-Panel Cartoon Detection in the Chosun Ilbo Archive"
-message: "If you use this portfolio case study or refer to the underlying research, please cite the published paper."
+title: "Business, Data Science, and AI: Mining Four-Panel Cartoon IP from the Chosun Ilbo Archive"
+message: "If you reference this portfolio case study or the underlying research, please cite the published first-author journal paper."
 type: software
 authors:
   - family-names: Lee
@@ -11,6 +11,7 @@ authors:
     given-names: Bong Gwan
 date-released: "2024"
 repository-code: "https://github.com/Lee2379/yolov5-fpc-chosun-archive"
+abstract: "A public portfolio case study of an end-to-end KAIST and Chosun Ilbo Media Institute R&D industry project that connected computer vision, large-scale archive data curation, public service value, and publication impact."
 preferred-citation:
   type: article
   title: "Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning"
