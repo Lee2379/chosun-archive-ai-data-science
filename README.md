@@ -22,6 +22,8 @@ KAISTと朝鮮日報メディア研究所によるR&D産学連携プロジェク
 
 ![Published paper title page](assets/paper-title.jpg)
 
+**Paper Link:** [Journal of Open Humanities Data - Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
+
 ## Project at a Glance
 
 This repository presents a professional case study of my first-author English journal publication and the underlying R&D industry AI project conducted with Chosun Ilbo Media Institute during my master's program at KAIST.
