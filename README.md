@@ -179,7 +179,7 @@ The project also connected to book/IP business output through the publication of
 
 ![Chosun Ilbo public archive detail page](assets/chosun-service-detail.jpg)
 
-*Source: [Chosun Ilbo News Library - Meongteongguri four-panel cartoons](https://archive.chosun.com/cartoon/toon_comics.html).*
+*Website Link: [Chosun Ilbo News Library - Meongteongguri four-panel cartoons](https://archive.chosun.com/cartoon/toon_comics.html).*
 
 ## Public Data and Copyright Note
 
