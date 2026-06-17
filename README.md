@@ -179,6 +179,8 @@ The project also connected to book/IP business output through the publication of
 
 ![Chosun Ilbo public archive detail page](assets/chosun-service-detail.jpg)
 
+*Source: [Chosun Ilbo News Library - Meongteongguri four-panel cartoons](https://archive.chosun.com/cartoon/toon_comics.html).*
+
 ## Public Data and Copyright Note
 
 This repository is a public technical case study built from already published research outputs, public service screenshots, and publicly accessible references. It does **not** redistribute a private source archive dump, proprietary internal materials, or unpublished collaboration files.
