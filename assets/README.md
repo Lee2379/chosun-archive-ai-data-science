@@ -1,6 +1,6 @@
-# Portfolio Evidence Assets
+# Public Evidence Assets
 
-This folder contains public-facing visual evidence used in the portfolio case study:
+This folder contains public-facing visual evidence used in the technical case study:
 
 - Published paper and author-contribution screenshots.
 - Chosun Ilbo public archive service screenshots.

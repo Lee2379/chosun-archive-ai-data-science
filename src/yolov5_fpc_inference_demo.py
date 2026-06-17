@@ -1,7 +1,7 @@
 """Public-safe YOLOv5_FPC inference demo.
 
 This script mirrors the public Google Colab detector flow described in the
-portfolio without bundling private archive dumps, proprietary collaboration
+public documentation without bundling private archive dumps, proprietary collaboration
 materials, or model weights. It expects the user to provide a local YOLOv5
 checkout, a permitted YOLOv5_FPC weight file, and an input image directory.
 """

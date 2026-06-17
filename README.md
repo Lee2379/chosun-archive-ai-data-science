@@ -20,7 +20,7 @@
 
 ## Project at a Glance
 
-This repository presents a portfolio-grade case study of my first-author English journal publication and the underlying R&D industry AI project conducted with Chosun Ilbo Media Institute during my master's program at KAIST.
+This repository presents a professional case study of my first-author English journal publication and the underlying R&D industry AI project conducted with Chosun Ilbo Media Institute during my master's program at KAIST.
 
 **Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36. DOI: [10.5334/johd.205](https://doi.org/10.5334/johd.205).**
 
@@ -167,7 +167,7 @@ This project was published as a first-author paper in the **Journal of Open Huma
 
 The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons. The broader restoration and service launch was covered by the Journalists Association of Korea, which reported that the project began as a Chosun Ilbo Media Institute research task, used deep-learning detection technology, and led to a public release of the restored series.
 
-The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For portfolio safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
+The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For public documentation safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
 
 > **ビジネスインパクト:** 研究成果は公開データセット、論文、再利用可能なAI検出ツール、朝鮮日報ニュースライブラリの公開サービス、さらに書籍/IPビジネス成果へと接続されました。
 
@@ -179,11 +179,11 @@ The project also connected to book/IP business output through the publication of
 
 ## Public Data and Copyright Note
 
-This repository is a public portfolio case study built from already published research outputs, public service screenshots, and publicly accessible references. It does **not** redistribute a private source archive dump, proprietary internal materials, or unpublished collaboration files.
+This repository is a public technical case study built from already published research outputs, public service screenshots, and publicly accessible references. It does **not** redistribute a private source archive dump, proprietary internal materials, or unpublished collaboration files.
 
-The research was conducted as a KAIST master's R&D industry project with Chosun Ilbo Media Institute, and the relevant publication, dataset references, and public archive service are already available online. The repository focuses on explaining my role, methodology, evaluation, and impact for professional portfolio review.
+The research was conducted as a KAIST master's R&D industry project with Chosun Ilbo Media Institute, and the relevant publication, dataset references, and public archive service are already available online. The repository focuses on explaining my role, methodology, evaluation, and impact for public technical documentation.
 
-> **日本語要約:** 本リポジトリは、公開済みの論文、公開データセット参照、公開サービス画面に基づくポートフォリオです。非公開の原本アーカイブ、内部資料、未公開の協業ファイルは再配布していません。
+> **日本語要約:** 本リポジトリは、公開済みの論文、公開データセット参照、公開サービス画面に基づく技術ケーススタディです。非公開の原本アーカイブ、内部資料、未公開の協業ファイルは再配布していません。
 
 ## Links
 

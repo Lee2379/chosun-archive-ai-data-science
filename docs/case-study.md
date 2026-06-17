@@ -45,7 +45,7 @@ The project also included a YOLOv5_FPC Detector script on Google Colab. This low
 
 The business outcome extended beyond research publication. The work connected to Chosun Ilbo's public archive service, received external media coverage, and supported book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author.
 
-## Why It Is Relevant for Data Science and AI Developer Roles
+## Why It Matters as a Data Science and AI Case Study
 
 This project demonstrates the ability to connect modeling work to a real data product:
 
@@ -57,9 +57,9 @@ This project demonstrates the ability to connect modeling work to a real data pr
 - Structure ML outputs into reusable data assets.
 - Communicate the work through a peer-reviewed publication.
 
-## Portfolio Positioning
+## Professional Positioning
 
-For hiring review, this project should be read as a research-to-production case study:
+This project should be read as a research-to-production case study:
 
 - Research credibility: first-author English journal publication.
 - Industry credibility: KAIST master's R&D industry collaboration with Chosun Ilbo Media Institute.
@@ -67,3 +67,4 @@ For hiring review, this project should be read as a research-to-production case 
 - Engineering credibility: model fine-tuning, batch inference, and evaluation.
 - Impact credibility: public dataset and public archive-service connection.
 - Business credibility: public service connection, media validation, and book/IP business output.
+

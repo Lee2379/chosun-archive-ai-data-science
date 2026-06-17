@@ -37,7 +37,7 @@ The research output includes publicly referenced dataset materials:
 - Extracted FPC dataset DOI: https://doi.org/10.7910/DVN/KTF1HP
 - YOLOv5_FPC Detector Colab script: https://colab.research.google.com/drive/1qnCKaUGUTF5vSRdPc7DI6y7b05P8yuQ?usp=sharing
 
-The portfolio repository does not redistribute private source archives or internal collaboration files. It links to public research outputs and explains the methodology, ownership, and impact.
+This repository does not redistribute private source archives or internal collaboration files. It links to public research outputs and explains the methodology, ownership, and impact.
 
 ## Chosun Ilbo Public Archive Service
 
@@ -59,13 +59,13 @@ The article reports that the restoration began as a Chosun Ilbo Media Institute 
 
 ## Book and IP Business Output
 
-The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. This is useful portfolio evidence because it shows that the data science and AI pipeline did not stop at model development; it supported content discovery, archive restoration, service value, and downstream IP/business use.
+The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. This is useful business evidence because it shows that the data science and AI pipeline did not stop at model development; it supported content discovery, archive restoration, service value, and downstream IP/business use.
 
-For public-portfolio safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
+For public documentation safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
 
 ## Professional Impact
 
-For Data Scientist and AI Developer hiring review, this project shows:
+This project shows the following professional evidence:
 
 - Peer-reviewed research communication.
 - KAIST master's R&D industry collaboration with Chosun Ilbo Media Institute.
@@ -74,15 +74,3 @@ For Data Scientist and AI Developer hiring review, this project shows:
 - Dataset and metadata design.
 - Public-facing impact beyond a notebook experiment.
 - Business impact connected to public service, media validation, and book/IP output.
-
-## Interview Talking Points
-
-Good interview questions this project can support:
-
-- How did you define the detection task from the original archive problem?
-- Why was baseline YOLOv5 insufficient?
-- How did you build and validate the labeled dataset?
-- What tradeoffs did you consider for confidence threshold selection?
-- How did you convert detections into database-ready metadata?
-- What parts of the project required stakeholder collaboration?
-- What would you modernize if rebuilding the pipeline today?
