@@ -165,7 +165,11 @@ This project was published as a first-author paper in the **Journal of Open Huma
 
 The work also contributed to the public-facing Chosun Ilbo News Library experience for "Meongteongguri" four-panel cartoons. The broader restoration and service launch was covered by the Journalists Association of Korea, which reported that the project began as a Chosun Ilbo Media Institute research task, used deep-learning detection technology, and led to a public release of the restored series.
 
-The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For public documentation safety, this repository mentions the book as a business-impact outcome without redistributing book images or interior pages.
+The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For public documentation safety, this repository uses a single cover/reference image and does not redistribute interior pages or book contents.
+
+<img src="assets/meongteongguri-book-ip-output.png" alt="Meongteongguri book and IP business output" width="320">
+
+*Book/IP business output connected to archive restoration, four-panel cartoon discovery, and public service value.*
 
 > **ビジネスインパクト:** 研究成果は公開データセット、論文、再利用可能なAI検出ツール、朝鮮日報ニュースライブラリの公開サービス、さらに書籍/IPビジネス成果へと接続されました。
 
