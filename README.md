@@ -167,7 +167,7 @@ The work also contributed to the public-facing Chosun Ilbo News Library experien
 
 The project also connected to book/IP business output through the publication of *Meongteongguri*, where I participated as a co-author. For public documentation safety, this repository uses a single cover/reference image and does not redistribute interior pages or book contents.
 
-<img src="assets/meongteongguri-book-ip-output.png" alt="Meongteongguri book and IP business output" width="320">
+<img src="assets/meongteongguri-book-ip-output.png" alt="Meongteongguri book and IP business output" width="420">
 
 *Book/IP business output connected to archive restoration, four-panel cartoon discovery, and public service value.*
 
