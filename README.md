@@ -2,7 +2,11 @@
 
 > As the first author of this journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, public archive service value, and downstream book/IP business output.
 
-> **日本語要約:** KAIST修士課程中にChosun Ilbo Media Instituteと実施したR&D産業連携AIプロジェクトであり、国際英文学術誌に第一著者として発表しました。曖昧なレガシーメディアアーカイブ課題を、ビジネス・データサイエンス・AI開発の実行可能なワークフローへ具体化し、検索可能なデータ資産、物体検出パイプライン、再利用可能な検出スクリプト、論文発表、公開サービス、書籍/IPビジネス成果までend-to-endで実現しました。
+## 日本語概要
+
+KAISTとChosun Ilbo Media InstituteによるR&D産業連携プロジェクトとして、新聞アーカイブに埋もれた四コマ漫画を検出・構造化するAIデータサイエンス基盤を構築しました。  
+曖昧なメディアアーカイブ課題を、データ収集、ラベリング、YOLOv5_FPC開発、AIモデル評価、大規模推論、DB化、公開サービス価値創出までの実行可能なワークフローへ具体化しました。  
+成果は第一著者論文、公開データセット参照、再利用可能な検出スクリプト、朝鮮日報ニュースライブラリの公開サービス、書籍/IPビジネス成果へ接続されています。
 
 ## Project Evidence
 
@@ -25,8 +29,6 @@ This repository presents a professional case study of my first-author English jo
 **Lee, S., Kim, B., & Jun, B. G. (2024). Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning. Journal of Open Humanities Data, 10:36. DOI: [10.5334/johd.205](https://doi.org/10.5334/johd.205).**
 
 The project was conducted as an **R&D industry collaboration with Chosun Ilbo Media Institute during my master's program at KAIST**. The business challenge was driven by rising demand for cartoon content in East Asia: Chosun Ilbo wanted to explore new archive-based business and service opportunities by finding four-panel cartoons hidden inside its massive historical newspaper database, but the starting point was unclear because the target content was embedded in unstructured scanned pages and difficult to detect manually or programmatically. I owned the work end-to-end: clarifying the ambiguous business/research problem, converting it into a business, data science, and AI workflow, collecting and labeling FPC training data, developing the YOLOv5_FPC model through YOLOv5 fine-tuning, evaluating the AI model, running large-scale detection, curating the metadata/database, building a reusable detector script, and communicating the result through a first-author publication.
-
-> **日本語要約:** 朝鮮日報メディア研究所との産業連携において、レガシー新聞アーカイブに埋もれていた価値あるコンテンツを検索・再利用可能なデータ資産へ変換するため、曖昧なビジネス課題をデータサイエンス・AI開発課題として具体化し、データ構築、AIモデル開発、評価、大規模推論、DB化、検出ツール、論文発表、新規サービス価値創出までをend-to-endで推進しました。
 
 | Area | Result |
 | --- | --- |
@@ -52,15 +54,11 @@ I structured the business problem into sequential delivery workstreams: business
 | Turn unstructured images into reusable data | Curated metadata/database and public datasets |
 | Create public-facing archive service and IP business value | Results connected to Chosun Ilbo News Library service and downstream book publication |
 
-> **日本語での位置づけ:** 価値あるアーカイブコンテンツを人手で探すという非効率な業務課題を、ビジネス課題定義、データ収集、AIモデル開発、AIモデル評価、大規模処理、データ資産化、新規サービス価値創出までの実行可能なプロジェクトに分解し、最終成果まで責任を持って推進した事例です。
-
 ## Why This Project Matters
 
 Historical newspaper archives contain valuable visual materials, but they are difficult to search, reuse, or monetize as content assets when the content is locked inside scanned image pages. In this project, the target object was the Korean four-panel cartoon (FPC), especially the "Meongteongguri" series in Chosun Ilbo's digitized archive.
 
 The practical challenge was not just training a model. The real problem was building a pipeline that could transform unstructured archive images into structured, searchable cultural data.
-
-> **日本語要約:** 単なるモデル学習ではなく、非構造な新聞画像を検索・再利用・サービス活用可能なデータ資産へ変換することが本プロジェクトの中心課題でした。
 
 ![47,777 archive images collected from Chosun Ilbo News Library](assets/archive-scale-47777-images.jpg)
 
