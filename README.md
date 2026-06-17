@@ -1,12 +1,12 @@
 # Business-Driven AI and Data Science for the Large-Scale Chosun Ilbo Archive
 
-> As the first author of this journal paper, I led a business-first industrial AI project with end-to-end ownership: I turned an ambiguous legacy media archive challenge into a concrete business, data science, and AI development workflow, then delivered a searchable data asset, working object detection pipeline, reusable detector script, academic publication, public archive service value, and downstream book/IP business output.
+> **As the first author**, I published this work in an international English-language data science journal indexed in **ESCI** and **Scopus**. Through an R&D industry-academia collaboration between KAIST and Chosun Ilbo Media Institute, I developed an AI data science foundation for automatically detecting and structuring four-panel cartoons hidden inside a large-scale newspaper archive, turning the results into searchable data assets, a reusable YOLOv5_FPC detector, Chosun Ilbo News Library public service value, book publication, and downstream IP business output. From problem definition to data collection, labeling, YOLOv5 fine-tuning, AI model evaluation, large-scale inference, database construction, and public-service implementation, I led and implemented the end-to-end AI workflow.
 
 ## 日本語概要
 
-KAISTと朝鮮日報メディア研究所によるR&D産学連携プロジェクトにおいて、新聞アーカイブに埋もれていた四コマ漫画を自動検出・構造化するAIデータサイエンス基盤を構築しました。成果は、**第一著者論文**、公開データセット、再利用可能な検出スクリプト、朝鮮日報ニュースライブラリの公開サービス、さらに書籍出版およびIPビジネスへとつながりました。  
-本プロジェクトでは、曖昧なメディアアーカイブ課題を、データ収集、ラベリング、AIモデル開発、モデル評価、大規模推論、データベース構築、サービス公開までの実行可能なAIワークフローとして設計・実装しました。  
-特に、既存のYOLOv5モデルを微調整し、四コマ漫画検出に特化したYOLOv5_FPCモデルを開発しました。また、AIモデル評価、大規模推論パイプラインの構築、データベース化、公開サービスとの連携までを担当し、研究成果を実サービスへ展開可能な形に統合しました。
+**第一著者として**、国際データサイエンス分野の英文学術誌（ESCI・Scopus収録）に論文が掲載され、大手メディア企業との産学連携プロジェクトを通じて、AIモデル開発、朝鮮日報ニュースライブラリにおける漫画公開サービスの構築、さらに書籍出版およびIPビジネスへと展開した、実ビジネス直結型のAIデータサイエンスプロジェクトです。  
+KAISTとChosun Ilbo Media InstituteによるR&D産学連携プロジェクトとして、大規模な新聞アーカイブに埋もれた四コマ漫画を自動検出・構造化し、検索可能なデータ資産として活用できるAIデータサイエンス基盤を構築しました。  
+本プロジェクトでは、課題定義からデータ収集、ラベリング、AIモデル学習、既存のYOLOv5をファインチューニングした四コマ漫画検出特化型YOLOv5_FPCモデルの開発、AIモデル評価、大規模推論、データベース構築、公開サービス実装まで、End-to-EndのAIワークフロー全体を主導して設計・実装しました。
 
 ## Project Evidence
 
