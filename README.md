@@ -8,18 +8,6 @@
 KAISTとChosun Ilbo Media InstituteによるR&D産学連携プロジェクトとして、大規模な新聞アーカイブに埋もれた四コマ漫画を自動検出・構造化し、検索可能なデータ資産として活用できるAIデータサイエンス基盤を構築しました。  
 本プロジェクトでは、課題定義からデータ収集、ラベリング、AIモデル学習、既存のYOLOv5をファインチューニングした四コマ漫画検出特化型YOLOv5_FPCモデルの開発、AIモデル評価、大規模推論、データベース構築、公開サービス実装まで、End-to-EndのAIワークフロー全体を主導して設計・実装しました。
 
-## Project Evidence
-
-| Evidence | Professional Signal |
-| --- | --- |
-| [First-author JOHD paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205) | Peer-reviewed English journal publication |
-| [ESCI / Scopus indexed journal](https://openhumanitiesdata.metajnl.com/about) | Internationally indexed academic venue |
-| [Chosun Ilbo public archive service](https://archive.chosun.com/cartoon/toon_comics.html) | Public-facing service impact from industry collaboration |
-| [Media coverage by Journalists Association of Korea](https://www.journalist.or.kr/news/article.html?no=56909) | External validation of restoration, deep-learning detection, and service launch |
-| Book publication, co-author | Evidence that the data science output connected to content/IP business use |
-| KAIST master's R&D industry project | Conducted with Chosun Ilbo Media Institute during my master's program |
-| Business-driven AI and Data Science | Problem structuring, big-data pipeline, computer vision, evaluation, and data-asset delivery |
-
 ![Published paper title page](assets/paper-title.jpg)
 
 **Paper Link:** [Journal of Open Humanities Data - Automatic Detection of Four-Panel Cartoon in Large-Scale Korean Digitized Newspapers using Deep Learning](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.205)
